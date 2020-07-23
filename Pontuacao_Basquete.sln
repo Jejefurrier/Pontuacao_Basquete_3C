@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pontuacao_Basquete", "Pontuacao_Basquete\Pontuacao_Basquete.csproj", "{667A6A39-0F0F-45D3-A92E-147E1450664A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_UI", "01_UI", "{825DA75C-B0D1-4614-9285-91E79EB0A2F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_BLL", "02_BLL", "{C670329F-5DEF-4A24-9F2B-6F0E4978FC63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_DAL", "03_DAL", "{2D43BD98-ADBC-47AA-9A29-28477474DB34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pontuacao_Basquete_Business", "Pontuacao_Basquete_Business\Pontuacao_Basquete_Business.csproj", "{A141AAA0-E23E-4EE5-A70F-C38A92027D94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pontuacao_Basquete_DataAcess", "Pontuacao_Basquete_DataAcess\Pontuacao_Basquete_DataAcess.csproj", "{CCE3B6EC-E587-4E0F-8BA6-683152FDBF95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_COMMON", "04_COMMON", "{8BAAB986-FF86-400E-9DFE-DE433DC53C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pontuacao_Basquete_Common", "Pontuacao_Basquete_Common\Pontuacao_Basquete_Common.csproj", "{51FF00B9-1381-4DD3-9211-A67D2B4C18D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{667A6A39-0F0F-45D3-A92E-147E1450664A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667A6A39-0F0F-45D3-A92E-147E1450664A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667A6A39-0F0F-45D3-A92E-147E1450664A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667A6A39-0F0F-45D3-A92E-147E1450664A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A141AAA0-E23E-4EE5-A70F-C38A92027D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A141AAA0-E23E-4EE5-A70F-C38A92027D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A141AAA0-E23E-4EE5-A70F-C38A92027D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A141AAA0-E23E-4EE5-A70F-C38A92027D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE3B6EC-E587-4E0F-8BA6-683152FDBF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE3B6EC-E587-4E0F-8BA6-683152FDBF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE3B6EC-E587-4E0F-8BA6-683152FDBF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE3B6EC-E587-4E0F-8BA6-683152FDBF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FF00B9-1381-4DD3-9211-A67D2B4C18D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FF00B9-1381-4DD3-9211-A67D2B4C18D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FF00B9-1381-4DD3-9211-A67D2B4C18D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FF00B9-1381-4DD3-9211-A67D2B4C18D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{667A6A39-0F0F-45D3-A92E-147E1450664A} = {825DA75C-B0D1-4614-9285-91E79EB0A2F1}
+		{A141AAA0-E23E-4EE5-A70F-C38A92027D94} = {C670329F-5DEF-4A24-9F2B-6F0E4978FC63}
+		{CCE3B6EC-E587-4E0F-8BA6-683152FDBF95} = {2D43BD98-ADBC-47AA-9A29-28477474DB34}
+		{51FF00B9-1381-4DD3-9211-A67D2B4C18D6} = {8BAAB986-FF86-400E-9DFE-DE433DC53C48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7453AF60-7AD5-4C8C-84FB-FE73707608FA}
+	EndGlobalSection
+EndGlobal

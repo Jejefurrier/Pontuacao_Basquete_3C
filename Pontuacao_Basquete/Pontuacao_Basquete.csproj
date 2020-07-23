@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pontuacao_Basquete_Business\Pontuacao_Basquete_Business.csproj" />
+    <ProjectReference Include="..\Pontuacao_Basquete_DataAcess\Pontuacao_Basquete_DataAcess.csproj" />
+  </ItemGroup>
+
+
+</Project>
