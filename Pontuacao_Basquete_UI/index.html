@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+        <script src="./app/app.js" ></script>
+        <script src="./app/configValue.js" ></script>
+        <script src="./app/routes/route.js" ></script>
+        <script src="./app/controllers/HomeController.js" ></script>
+        <script src="./app/controllers/LancarPontosController.js" ></script>
+        <script src="./app/controllers/VerResultadosController.js" ></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="menu">
+            <p><a href="#/lancamento">Lançar pontos</a></p>
+            <p><a href="#/resultados">Ver resultados</a></p>
+        </div>
+        <div id="corpo" ng-view>
+
+        </div>
+        
+    </body>
+</html>
