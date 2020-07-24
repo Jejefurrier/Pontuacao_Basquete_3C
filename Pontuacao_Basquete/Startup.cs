@@ -32,6 +32,14 @@ namespace Pontuacao_Basquete
         {
             //MVC
             services.AddControllers();
+            //CORS
+            services.AddCors(options =>
+            {
+                options.AddPolicy("EnableCORS", builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().Build();
+                });
+            });
             //Injeções de dependências
             services.AddSingleton<IPartida_Business, Partida_Business>();
             services.AddSingleton<IPartida_DataAcess, Partida_DataAcess>();
@@ -45,6 +53,7 @@ namespace Pontuacao_Basquete
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors("EnableCORS");
 
             app.UseHttpsRedirection();
 
